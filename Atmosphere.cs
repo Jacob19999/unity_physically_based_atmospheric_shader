@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+# Written By Jacob Tang
+
 [ExecuteInEditMode]
 public class Atmosphere : MonoBehaviour
 {
