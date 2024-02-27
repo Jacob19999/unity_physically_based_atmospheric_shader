@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enceladus_Atmosphere
+  m_Shader: {fileID: 4800000, guid: 6253274fce6cd0049bd015d2fb093dbc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AtmoAlpha: 0.043
+    - _AtmoAlphaCutoff: 0.09
+    - _AtmoThickness: 1
+    - _AtmosphereRadius: 14
+    - _Blend: 0
+    - _BlendOp: 0
+    - _ClipThreshold: 0.222
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DensityIncrement: 1
+    - _DstBlend: 0
+    - _LightIntensity: 40
+    - _LightSteps: 20
+    - _MieExponent: 0.2
+    - _NUM_IN_SCATTER: 20
+    - _NUM_OUT_SCATTER: 10
+    - _PlanetRadius: 10.42
+    - _QueueOffset: 0
+    - _RayleighExponent: 0.1
+    - _SampleGI: 0
+    - _SrcBlend: 1
+    - _Steps: 60
+    - _Surface: 0
+    - _TestParameter: 4
+    - _ZWrite: 1
+    - _alpha: 1
+    - _atmoDensity: 0.25
+    - _atmoRadius: 30
+    - _ph_mie: 0.001
+    - _ph_ray: 0.02
+    - ph_mie: 0.001
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDIr: {r: 0.9, g: 0.1, b: 0, a: 1}
+    - _LightDirection: {r: 0, g: -0.3353422, b: -0.94209635, a: 0}
+    - _MieScattering: {r: 0.41509432, g: 0, b: 0, a: 0.83137256}
+    - _PlanetCenter: {r: -964.00024, g: 0, b: 0.00001734495, a: 0}
+    - _RayleighScattering: {r: 0.14672679, g: 0.11792451, b: 1, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - __PlanetCenter: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
